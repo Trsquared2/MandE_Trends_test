@@ -1,0 +1,9 @@
+file:/root/.gitconfig	user.name=Travis
+file:/root/.gitconfig	user.email=t_woodz@outlook.com
+file:.git/config	core.repositoryformatversion=0
+file:.git/config	core.filemode=false
+file:.git/config	core.bare=false
+file:.git/config	core.logallrefupdates=true
+file:.git/config	core.ignorecase=true
+file:.git/config	remote.origin.url=git@github.com:user/repo.git
+file:.git/config	remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
