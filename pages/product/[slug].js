@@ -1,5 +1,5 @@
-import React, { Component, useState, useEffect } from 'react';
-import { AiOutlineMinus, AiOutlinePlus, AiFillStar, AiOutlineStar, AiOutlineUnorderedList } from 'react-icons/ai';
+import React, { Component, useState, } from 'react';
+import { AiOutlineMinus, AiOutlinePlus, AiFillStar, } from 'react-icons/ai';
 
 import { client, urlFor } from '../../lib/client';
 import { Product } from '../../components';

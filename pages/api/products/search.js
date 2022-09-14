@@ -44,7 +44,7 @@ export default function SearchScreen() {
 
                 setstate({ loading: true });
 
-                const products = await clientnt.fetch(gQuery);
+                const products = await client.fetch(gQuery);
                 setstate ({ products, loading: false });
               }
             } catch (err) {
