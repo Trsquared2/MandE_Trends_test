@@ -2,7 +2,7 @@ import React, { Component, useState, } from 'react';
 import { AiOutlineMinus, AiOutlinePlus, AiFillStar, } from 'react-icons/ai';
 
 import { client, urlFor } from '../../lib/client';
-import { Product } from '../../components';
+import { Product } from '../../Components';
 import { useStateContext } from '../../context/StateContext';
 
 const ProductDetails = ({ product, products }) => {
