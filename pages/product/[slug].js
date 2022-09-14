@@ -6,7 +6,7 @@ import { Product } from '../../Components';
 import { useStateContext } from '../../context/StateContext';
 
 const ProductDetails = ({ product, products }) => {
-    const { image, name, details, price, countInStock, category } = product;
+    const { image, name, details, price, countInStock, size } = product;
     const stars = Array(5).fill(0);
     const [Currentvalue, setCurrentValue] = useState(0);
     const [HoverValue, setHoverValue] = useState(undefined);
@@ -69,8 +69,8 @@ const ProductDetails = ({ product, products }) => {
                             (20)
                         </p>
                     </div>
-                    <h4>Category: </h4>
-                    <p>{category}</p>
+                    <h4>Size: </h4>
+                    <p>{size}</p>
 
                     <h4>Details: </h4>
                     <p>{details}</p>
